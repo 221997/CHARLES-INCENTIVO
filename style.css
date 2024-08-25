@@ -1,0 +1,119 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#carrinho {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#carrinho h2 {
+    margin-top: 0;
+}
+
+#itensCarrinho {
+    list-style-type: none;
+    padding: 0;
+}
+
+#itensCarrinho li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+#totalCarrinho {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+label, input, select {
+    display: block;
+    margin-top: 10px;
+}
+
+#mapa {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
